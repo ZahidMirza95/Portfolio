@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.19a46176.chunk.css",
+    "main.js": "/Portfolio/static/js/main.05a8e635.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.05a8e635.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.8abdbaf4.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.8abdbaf4.js.map",
+    "static/js/2.c1d867c4.chunk.js": "/Portfolio/static/js/2.c1d867c4.chunk.js",
+    "static/js/2.c1d867c4.chunk.js.map": "/Portfolio/static/js/2.c1d867c4.chunk.js.map",
+    "static/js/3.22b132c3.chunk.js": "/Portfolio/static/js/3.22b132c3.chunk.js",
+    "static/js/3.22b132c3.chunk.js.map": "/Portfolio/static/js/3.22b132c3.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.19a46176.chunk.css.map": "/Portfolio/static/css/main.19a46176.chunk.css.map",
+    "static/js/2.c1d867c4.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.c1d867c4.chunk.js.LICENSE.txt",
+    "static/media/COVIDAI_App.0c9b2ebf.png": "/Portfolio/static/media/COVIDAI_App.0c9b2ebf.png",
+    "static/media/Cosmic_Samurai_1.fc95813d.png": "/Portfolio/static/media/Cosmic_Samurai_1.fc95813d.png",
+    "static/media/FindMyCity_HeatMap.ad806b31.png": "/Portfolio/static/media/FindMyCity_HeatMap.ad806b31.png",
+    "static/media/Gogogirl_Game_Real.e5c8538f.png": "/Portfolio/static/media/Gogogirl_Game_Real.e5c8538f.png",
+    "static/media/Stockify_Main.5c0e40f9.png": "/Portfolio/static/media/Stockify_Main.5c0e40f9.png",
+    "static/media/bash_logo.937ad41d.png": "/Portfolio/static/media/bash_logo.937ad41d.png",
+    "static/media/csharp_logo.f80d0b42.png": "/Portfolio/static/media/csharp_logo.f80d0b42.png",
+    "static/media/github_logo_new.77c52a9c.png": "/Portfolio/static/media/github_logo_new.77c52a9c.png",
+    "static/media/java_logo.4ed0cd28.png": "/Portfolio/static/media/java_logo.4ed0cd28.png",
+    "static/media/javascript_logo.bfea1473.png": "/Portfolio/static/media/javascript_logo.bfea1473.png",
+    "static/media/linked_in_logo.65c3a77d.png": "/Portfolio/static/media/linked_in_logo.65c3a77d.png",
+    "static/media/nasm_logo.95faa3d5.png": "/Portfolio/static/media/nasm_logo.95faa3d5.png",
+    "static/media/personal_website.d9b99765.png": "/Portfolio/static/media/personal_website.d9b99765.png",
+    "static/media/python_logo.36f78136.png": "/Portfolio/static/media/python_logo.36f78136.png",
+    "static/media/resume_bg_new.b829d104.png": "/Portfolio/static/media/resume_bg_new.b829d104.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8abdbaf4.js",
+    "static/js/2.c1d867c4.chunk.js",
+    "static/css/main.19a46176.chunk.css",
+    "static/js/main.05a8e635.chunk.js"
+  ]
+}
