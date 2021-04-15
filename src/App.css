@@ -277,7 +277,7 @@ html {
   top: -1.4vh;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, black, rgba(255, 229, 44, 1), rgba(250,166,34,1));
+  background: linear-gradient(45deg, rgba(255, 229, 44, 1), rgb(255, 206, 44), rgba(250,166,34,1));
   background-size: 400% 400%;
   animation: change 12s ease-in-out infinite;
 }
@@ -390,21 +390,22 @@ html {
 
 .about .linkedIn {
   position: relative;
-  width: 33.3%;
+  width: 200px;
   height: auto;
   transition: transform .5s;
 }
 
 .about .github {
   position: relative;
-  width: 33.3%;
+  width: 200px;
   height: auto;
   transition: transform .5s;
 }
 
 .about .resume {
   position: relative;
-  width: 33%;
+  /*width: 33%;*/
+  width: 200px;
   height: auto;
   transition: transform .5s;
 }
@@ -489,7 +490,7 @@ html {
 }
 
 .yellow .container-sm {
-  background-color: #b39b48;
+  background-color: #dab200;
 }
 
 .red .container-sm {
@@ -524,6 +525,13 @@ html {
 
 .logo-img:hover {
   transform: scale(1.3);
+}
+
+.hobbyhub {
+  border-radius: 20px;
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 .portfolio {
