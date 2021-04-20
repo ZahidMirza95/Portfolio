@@ -17,8 +17,6 @@ import java from './images/java_logo.png';
 import javascript from './images/javascript_logo.png';
 import python from './images/python_logo.png';
 
-
-
 /* Project Images  */
 import portfolio from './images/personal_website.png';
 import cosmic from './images/Cosmic_Samurai_1.png';
@@ -163,10 +161,10 @@ function App() {
             <h1 data-aos= "fade-in" data-aos-duration="2000"> PROJECTS </h1>
               <div className = "container">
                 <div className = "row">
-                <div className = "col-lg">
+                  <div className = "col-lg">
                     <Project name = "HobbyHub"
                     date = "Jan. 2021"
-                    desc = "A web application that provides a hobby for the user to try out by analyzing their responses, using the K-Means clustering algorithm, to various questions based on their personality. The application also provides them with some other users to connect with so that they can learn the hobby together. Created using the React.js library and Bootstrap."
+                    desc = "A web application created within a team of three for Hack the North 2020++. It provides a hobby for the user to try out by analyzing their responses, using the K-Means clustering algorithm, to various personality-based questions. The application also provides them with some other users to connect with so that they can learn the hobby together. Created using the React.js library and Bootstrap."
                     img = {hobbyhub}
                     imgName = "hobbyhub"
                     logos = {[githubLogo, devpostLogo]}
@@ -176,7 +174,7 @@ function App() {
                   <div className = "col-lg">
                     <Project name = "Portfolio"
                     date = "Dec. 2020 - Present"
-                    desc = "A portfolio that shows off some more information about me and the various projects that I've worked on. Currently on the second version (minor update from the first) of the website, plan to update it even further later on. Created using HTML, CSS, Bootstrap, and JavaScript with the React.js library."
+                    desc = "A portfolio that shows off some more information about me and the various projects that I've worked on. Currently on the first version of the website, plan to update it even further later on. Created using HTML, CSS, Bootstrap, and JavaScript with the React.js library."
                     img = {portfolio}
                     imgName = "portfolio"
                     logos = {[githubLogo]}
@@ -185,7 +183,7 @@ function App() {
                   </div>
                 </div>
                 <div className = "row">
-                <div className = "col-lg">
+                  <div className = "col-lg">
                     <Project name = "Cosmic Samurai" 
                     date = "Nov. 2020 - Dec. 2020"
                     img = {cosmic}
@@ -198,7 +196,7 @@ function App() {
                   <div className = "col-lg">
                     <Project name = "FindMyCity"
                     date = "Oct. 2020"
-                    desc = "A web application I created in a team of three, within 24 hours, for TAMU Datathon 2020. Helps the user find the best city to live in based on choices they make within the app. Created using Python with Streamlit Framework, and deployed with AWS (Amazon EC2)."
+                    desc = "A web application created in a team of three for TAMU Datathon 2020. Helps the user find the best city to live in based on choices they make within the app. Created using Python with Streamlit Framework, and deployed with AWS (Amazon EC2)."
                     img = {findMyCity}
                     imgName = "findMyCity"
                     logos = {[githubLogo, devpostLogo]}
@@ -210,7 +208,7 @@ function App() {
                   <div className = "col-lg">
                       <Project name = "Go Go Girl"
                       date = "Sept. 2020"
-                      desc = "Video game developed in a team of four, within 36 hours, for ShellHacks 2020. Purpose of this game is to show the impact social media can have on mental health. Created using Unity and C#."
+                      desc = "Video game developed in a team of four for ShellHacks 2020. Purpose of this game is to show the impact social media can have on mental health. Created using Unity and C#."
                       img = {gogogirl}
                       imgName = "gogogirl"
                       logos = {[githubLogo, devpostLogo]}
@@ -220,7 +218,7 @@ function App() {
                   <div className = "col-lg">
                     <Project name = "Stockify"
                     date = "May 2020"
-                    desc = "Web application developed in a team of four, within 24 hours, for TOHacks 2020. Stockify is a web application that is designed to help its users make the right decisions when investing in the stock market, using only data from the pandemic. Back-end was created using Python with Django framework, and front-end was made using HTML, CSS, and Bootstrap."
+                    desc = "Web application developed in a team of four for TOHacks 2020. Stockify is a web application that is designed to help its users make the right decisions when investing in the stock market, using only data from the pandemic. Back-end was created using Python with Django framework, and front-end was made using HTML, CSS, and Bootstrap."
                     img = {stockify}
                     imgName = "stockify"
                     logos = {[githubLogo, devpostLogo]}
@@ -229,7 +227,7 @@ function App() {
                   </div>
                 </div>
                 <h1> Built by Zahid Mirza </h1>
-                <h2> Version 1.1 </h2>
+                <h2> Version 1.11 </h2>
               </div>
             </div>
         </section>
