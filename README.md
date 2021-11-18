@@ -3,4 +3,4 @@ A portfolio that shows off some more information about me and the various projec
 
 Try it out here:
 
-https://zamzam95-coder.github.io/Portfolio/
+https://zahidmirza95.github.io/Portfolio/
