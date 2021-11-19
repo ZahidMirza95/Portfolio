@@ -108,10 +108,10 @@ function App() {
         <section id = "about"> 
           <div className = "about"> 
             <h1 data-aos= "fade-in" data-aos-duration="2000"> ABOUT ME </h1>
-            <p data-aos = "fade-up" data-aos-duration="1000"> Hello there! My name is Zahid Mirza and I am a Software Engineering & Management student
+            <p data-aos = "fade-up" data-aos-duration="1000"> Hello there! My name is Zahid Mirza and I am a Software Engineering student
             at McMaster University. I really enjoy learning 
-            new programming languages and solving problems using code. I'm very passionate about both web 
-            development and video game development. I also have a strong interest in AI and RPA. In my spare time I work on 
+            new programming languages and solving problems using code. I'm very passionate about web 
+            development, video game development, and intelligent automation. In my spare time I work on 
             personal coding projects, play golf, and play video games. </p>
             <div className = "row">
               <div className = "col">
