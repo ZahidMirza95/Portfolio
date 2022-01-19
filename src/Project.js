@@ -11,7 +11,7 @@ function Project(props) {
     /* listOfImages refers to the github, devpost, and/or itchio logos that are on every project */
     const listOfImages = logos.map((image) => {
             return (
-                <li key = {image.alt}><a href = {image.link}><img className = "logo-img" src = {image.img} alt = {image.alt}/></a></li>
+                <li key = {Math.random() * 1000}><a href = {image.link}><img className = "logo-img" src = {image.img} alt = {image.alt}/></a></li>
             )
         }
     );
