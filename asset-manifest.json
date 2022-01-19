@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d3d66792.chunk.css",
-    "main.js": "/static/js/main.2493e74f.chunk.js",
-    "main.js.map": "/static/js/main.2493e74f.chunk.js.map",
+    "main.js": "/static/js/main.0ffcecf3.chunk.js",
+    "main.js.map": "/static/js/main.0ffcecf3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.767a4807.js",
     "runtime-main.js.map": "/static/js/runtime-main.767a4807.js.map",
     "static/js/2.c1d867c4.chunk.js": "/static/js/2.c1d867c4.chunk.js",
@@ -15,7 +15,6 @@
     "static/media/Cosmic_Samurai_1.fc95813d.png": "/static/media/Cosmic_Samurai_1.fc95813d.png",
     "static/media/FindMyCity_HeatMap.ad806b31.png": "/static/media/FindMyCity_HeatMap.ad806b31.png",
     "static/media/Gogogirl_Game_Real.e5c8538f.png": "/static/media/Gogogirl_Game_Real.e5c8538f.png",
-    "static/media/PersonaSavings.937a9bde.PNG": "/static/media/PersonaSavings.937a9bde.PNG",
     "static/media/cryptoTrader.b9d79171.png": "/static/media/cryptoTrader.b9d79171.png",
     "static/media/csharp_logo.f80d0b42.png": "/static/media/csharp_logo.f80d0b42.png",
     "static/media/cyberfunk_gameplay.3a281730.png": "/static/media/cyberfunk_gameplay.3a281730.png",
@@ -34,6 +33,6 @@
     "static/js/runtime-main.767a4807.js",
     "static/js/2.c1d867c4.chunk.js",
     "static/css/main.d3d66792.chunk.css",
-    "static/js/main.2493e74f.chunk.js"
+    "static/js/main.0ffcecf3.chunk.js"
   ]
 }
