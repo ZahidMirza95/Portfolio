@@ -24,12 +24,11 @@ import findMyCity from './images/FindMyCity_HeatMap.png';
 import gogogirl from './images/Gogogirl_Game_Real.png';
 import hobbyhub from './images/hobbyhubquest.jpg';
 import cryptotrader from './images/cryptoTrader.png';
-import savingsapp from './images/PersonaSavings.PNG';
+import savingsapp from './images/cryptoTrader.png';
 import cyberfunk from './images/cyberfunk_gameplay.png';
 
 function App() {
-
-  {/* NAVBAR states */}
+  /* NAVBAR states */
   const [navbarShow, setNavbarShow] = useState(false);
   const [currentColor, setCurrentColor] = useState("blue");
   const navbarClick = () => {
