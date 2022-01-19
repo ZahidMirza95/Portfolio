@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 function Project(props) {
-    /* This loop is meant to add a "link" property to all the logos*/
+    /* This loop is meant to add a "link" property to all the logos (by default images only have alt and img properties, so need to setup another property)*/
     for(var i = 0; i < props.links.length; i++) {
         props.logos[i].link = props.links[i];
     }

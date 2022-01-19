@@ -8,6 +8,7 @@ import github from './images/github_logo_new.png';
 import devpost from './images/devpost_logo.png';
 import itchio from './images/itchio_logo.png';
 import resume from './images/resume_bg_new.png';
+import urlImage from './images/url_image.png';
 
 /* Programming Languages Logos */
 import csharp from './images/csharp_logo.png';
@@ -23,6 +24,8 @@ import findMyCity from './images/FindMyCity_HeatMap.png';
 import gogogirl from './images/Gogogirl_Game_Real.png';
 import hobbyhub from './images/hobbyhubquest.jpg';
 import cryptotrader from './images/cryptoTrader.png';
+import savingsapp from './images/PersonaSavings.PNG';
+import cyberfunk from './images/cyberfunk_gameplay.png';
 
 function App() {
 
@@ -46,6 +49,11 @@ function App() {
   }
 
   /* Passed the logos (used only in the projects section) as objects */
+  var urlLogo = {
+    img: urlImage,
+    alt: "github"
+  }
+  
   var githubLogo = {
     img: github,
     alt: "github"
@@ -153,6 +161,28 @@ function App() {
           <div className = "projects">
             <h1 data-aos= "fade-in" data-aos-duration="2000"> PROJECTS </h1>
               <div className = "container">
+              <div className = "row">
+                  <div className = "col-lg">
+                    <Project name = "SavingsApp"
+                    date = "Dec. 2021 - Present"
+                    desc = "A web application that gamifies the process of keeping track of a user's savings, allowing them to enter transactions and view both their statistics for the week and any achievements that they've earned. Built using React, HTMl, CSS, JavaScript. Utilized the Date-fns and Charts.js libraries."
+                    img = {savingsapp}
+                    imgName = "cryptotrader"
+                    logos = {[urlLogo, githubLogo, devpostLogo]}
+                    links = {["https://zahidmirza95.github.io/SavingsApp/", "https://github.com/ZahidMirza95/shellhacksnew2021", "https://devpost.com/software/cryptotrader-4t8z5a"]}
+                    />
+                  </div>
+                  <div className = "col-lg">
+                    <Project name = "CyberFunk"
+                    date = "Nov. 2021 - Dec. 2021"
+                    desc = "A first-person shooter game created in a team of 2 within a month for GitHub Gameoff 2021. Created using Unreal Engine 4 and Blueprints (C++ Visual Scripting). Models and animations were made using Blender."
+                    img = {cyberfunk}
+                    imgName = "hobbyhub"
+                    logos = {[githubLogo, itchioLogo]}
+                    links = {["https://github.com/ZahidMirza95/BugGame", "https://zamzam95.itch.io/cyberfunk"]}
+                    />
+                  </div>
+                </div>
                 <div className = "row">
                   <div className = "col-lg">
                     <Project name = "CryptoTrader"
@@ -176,7 +206,7 @@ function App() {
                   </div>
                 </div>
                 <div className = "row">
-                <div className = "col-lg">
+                  <div className = "col-lg">
                     <Project name = "Portfolio"
                     date = "Dec. 2020 - Present"
                     desc = "A portfolio that shows off some more information about me and the various projects that I've worked on. Currently on the first version of the website, plan to update it even further later on. Created using HTML, CSS, Bootstrap, and JavaScript with the React.js library."
@@ -220,10 +250,17 @@ function App() {
                   </div>
                 </div>
                 <h1> Built by Zahid Mirza </h1>
-                <h2> Version 1.13 </h2>
+                <h2> Version 1.14 </h2>
               </div>
             </div>
         </section>
+        {/* WORK IN PROGRESS */}
+        {/*<section>
+          <h1> THIS SECTION IS WIP </h1>
+          <div className = "work">
+            <h1 data-aos="fade-in" data-aos-duration="2000"> WORK EXPERIENCE </h1>
+          </div> 
+        </section>*/}
         </div>
       </div>
   );

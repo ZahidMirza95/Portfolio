@@ -444,14 +444,36 @@ html {
 /****WORK SECTION****/
 /********************/
 
+.work {
+  position: relative;
+  top: -2.0vh;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: 200%;
+  background-color: rgb(136, 136, 161);
+}
+
 .work h1 {
-  margin-top: 50px;
+  margin-top: 40px;
   position: relative;
   top: 40px;
   color: white;
   font-family: 'Quicksand', sans-serif;
   font-size: 40px;
   font-weight: normal;
+}
+
+.blue .work {
+  background-color: #3b5998;
+}
+
+.yellow .work {
+  background-color: #dab200;
+}
+
+.red .work {
+  background-color: #81190d;
 }
 
 /********************/
