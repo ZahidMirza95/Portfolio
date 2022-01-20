@@ -11,21 +11,22 @@ import resume from './images/resume_bg_new.png';
 //import urlImage from './images/url_image.png';
 
 /* Programming Languages Logos */
+import nasm from './images/nasm_logo.png';
+import bash from './images/bash_logo.png';
 import csharp from './images/csharp_logo.png';
 import java from './images/java_logo.png';
 import javascript from './images/javascript_logo.png';
 import python from './images/python_logo.png';
-import visualbasic from './images/visual_basic.png';
 
 /* Project Images  */
 import portfolio from './images/personal_website.png';
 import cosmic from './images/Cosmic_Samurai_1.png';
 import findMyCity from './images/FindMyCity_HeatMap.png';
 import gogogirl from './images/Gogogirl_Game_Real.png';
+import stockify from './images/Stockify_Main.png';
+import covidai from './images/COVIDAI_App.png';
 import hobbyhub from './images/hobbyhubquest.jpg';
-import cryptotrader from './images/cryptoTrader.png';
-//import savingsapp from './images/cryptoTrader.png';
-//import cyberfunk from './images/cyberfunk_gameplay.png';
+import hobbyhublogo from './images/hobbyhub.png';
 
 function App() {
   /* NAVBAR states */
@@ -123,16 +124,24 @@ function App() {
                 <h2> LinkedIn </h2>
               </div>
               <div className = "col">
-                <a href = "https://github.com/ZahidMirza95"><img src = {github} alt = "github" className = "github"></img></a>
+                <a href = "https://github.com/Zamzam95-coder"><img src = {github} alt = "github" className = "github"></img></a>
                 <h2> GitHub </h2>
               </div>
               <div className = "col">
-                <a href = "https://drive.google.com/file/d/1cLorCrXsFpuw3HPluIqcHTXS-9tLDLOD/view?usp=sharing"><img src = {resume} alt = "resume" className = "resume"></img></a>
+                <a href = "https://drive.google.com/file/d/1jXaHOpxwb9qJU-K3i38t3teJLsnWUld9/view?usp=sharing"><img src = {resume} alt = "resume" className = "resume"></img></a>
                 <h2> Resume </h2>
               </div>
             </div>
             <h3> PROGRAMMING LANGUAGES </h3>
             <div className = "row">
+              <div className = "col">
+                <img className = "language" src = {nasm} alt = "nasm"/>
+                <h3> Assembly </h3>
+              </div>
+              <div className = "col">
+                <img className = "language" src = {bash} alt = "bash"/>
+                <h3> Bash </h3>
+              </div>
               <div className = "col">
                 <img className = "language" src = {csharp} alt = "csharp"/>
                 <h3> C# </h3>
@@ -149,10 +158,6 @@ function App() {
                 <img className = "language" src = {python} alt = "python"/>
                 <h3> Python </h3>
               </div>
-              <div className = "col">
-                <img className = "language" src = {visualbasic} alt = "visualbasic"/>
-                <h3> Visual Basic </h3>
-              </div>
             </div>
           </div>
         </section>
@@ -161,16 +166,6 @@ function App() {
             <h1 data-aos= "fade-in" data-aos-duration="2000"> PROJECTS </h1>
               <div className = "container">
                 <div className = "row">
-                  <div className = "col-lg">
-                    <Project name = "CryptoTrader"
-                    date = "Sept. 2021"
-                    desc = "A web application created within a team of four for ShellHacks 2021. It's a platform that allows its users to actively view and trade cryptocurrencies. Created using Python with Streamlit. Cryptocurrency data was obtained via CoinGecko API and trading was done through the CoinRoutes API."
-                    img = {cryptotrader}
-                    imgName = "cryptotrader"
-                    logos = {[githubLogo, devpostLogo]}
-                    links = {["https://github.com/ZahidMirza95/shellhacksnew2021", "https://devpost.com/software/cryptotrader-4t8z5a"]}
-                    />
-                  </div>
                   <div className = "col-lg">
                     <Project name = "HobbyHub"
                     date = "Jan. 2021"
@@ -181,8 +176,6 @@ function App() {
                     links = {["https://github.com/minericpark/hobbyapp", "https://devpost.com/software/hobbyhub"]}
                     />
                   </div>
-                </div>
-                <div className = "row">
                   <div className = "col-lg">
                     <Project name = "Portfolio"
                     date = "Dec. 2020 - Present"
@@ -190,9 +183,11 @@ function App() {
                     img = {portfolio}
                     imgName = "portfolio"
                     logos = {[githubLogo]}
-                    links = {["https://github.com/ZahidMirza95/Portfolio"]}
+                    links = {["https://github.com/Zamzam95-coder/Portfolio"]}
                     />
                   </div>
+                </div>
+                <div className = "row">
                   <div className = "col-lg">
                     <Project name = "Cosmic Samurai" 
                     date = "Nov. 2020 - Dec. 2020"
@@ -200,21 +195,21 @@ function App() {
                     desc = "A video game I created in a team of three for GitHub Game Jam 2020. It's a 2D platformer with a simple combat system and a very unique teleportation mechanic. Created using Unity and C#."
                     imgName = "cosmic"
                     logos = {[githubLogo, itchioLogo]}
-                    links = {["https://github.com/ZahidMirza95/Cosmic-Samurai", "https://itch.io/jam/game-off-2020/rate/840159"]}
+                    links = {["https://github.com/Zamzam95-coder/Cosmic-Samurai", "https://itch.io/jam/game-off-2020/rate/840159"]}
                     />
                   </div>
-                </div>
-                <div className = "row">
-                <div className = "col-lg">
+                  <div className = "col-lg">
                     <Project name = "FindMyCity"
                     date = "Oct. 2020"
                     desc = "A web application created in a team of three for TAMU Datathon 2020. Helps the user find the best city to live in based on choices they make within the app. Created using Python with Streamlit Framework, and deployed with AWS (Amazon EC2)."
                     img = {findMyCity}
                     imgName = "findMyCity"
                     logos = {[githubLogo, devpostLogo]}
-                    links = {["https://github.com/ZahidMirza95/FindMyCity", "https://devpost.com/software/find-my-city"]}
+                    links = {["https://github.com/Zamzam95-coder/FindMyCity", "https://devpost.com/software/find-my-city"]}
                     />
                   </div>
+                </div>
+                <div className = "row">
                   <div className = "col-lg">
                       <Project name = "Go Go Girl"
                       date = "Sept. 2020"
@@ -222,12 +217,22 @@ function App() {
                       img = {gogogirl}
                       imgName = "gogogirl"
                       logos = {[githubLogo, devpostLogo]}
-                      links = {["https://github.com/ZahidMirza95/GoGoGirl", "https://devpost.com/software/go-go-girl"]}
+                      links = {["https://github.com/Zamzam95-coder/GoGoGirl", "https://devpost.com/software/go-go-girl"]}
                       />
+                  </div>
+                  <div className = "col-lg">
+                    <Project name = "Stockify"
+                    date = "May 2020"
+                    desc = "Web application developed in a team of four for TOHacks 2020. Stockify is a web application that is designed to help its users make the right decisions when investing in the stock market, using only data from the pandemic. Back-end was created using Python with Django framework, and front-end was made using HTML, CSS, and Bootstrap."
+                    img = {stockify}
+                    imgName = "stockify"
+                    logos = {[githubLogo, devpostLogo]}
+                    links = {["https://github.com/Zamzam95-coder/Stockify", "https://devpost.com/software/stocker-kw70ue"]}
+                    />
                   </div>
                 </div>
                 <h1> Built by Zahid Mirza </h1>
-                <h2> Version 1.14 </h2>
+                <h2> Version 1.11 </h2>
               </div>
             </div>
         </section>
