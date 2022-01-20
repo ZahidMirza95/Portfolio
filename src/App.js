@@ -26,6 +26,7 @@ import hobbyhub from './images/hobbyhubquest.jpg';
 import cryptotrader from './images/cryptoTrader.png';
 //import savingsapp from './images/cryptoTrader.png';
 //import cyberfunk from './images/cyberfunk_gameplay.png';
+//Test comment
 
 function App() {
   /* NAVBAR states */
