@@ -8,7 +8,7 @@ import github from './images/github_logo_new.png';
 import devpost from './images/devpost_logo.png';
 import itchio from './images/itchio_logo.png';
 import resume from './images/resume_bg_new.png';
-//import urlImage from './images/url_image.png';
+import urlImage from './images/url_image.png';
 
 /* Programming Languages Logos */
 import nasm from './images/nasm_logo.png';
@@ -49,10 +49,10 @@ function App() {
   }
 
   /* Passed the logos (used only in the projects section) as objects */
-  /*var urlLogo = {
+  var urlLogo = {
     img: urlImage,
     alt: "github"
-  }*/
+  }
   
   var githubLogo = {
     img: github,
