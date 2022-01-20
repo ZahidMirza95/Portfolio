@@ -262,7 +262,7 @@ function App() {
                   </div>
                 </div>
                 <h1> Built by Zahid Mirza </h1>
-                <h2> Version 1.11 </h2>
+                <h2> Version 1.14 </h2>
               </div>
             </div>
         </section>
