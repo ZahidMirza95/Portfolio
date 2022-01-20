@@ -24,8 +24,8 @@ import findMyCity from './images/FindMyCity_HeatMap.png';
 import gogogirl from './images/Gogogirl_Game_Real.png';
 import hobbyhub from './images/hobbyhubquest.jpg';
 import cryptotrader from './images/cryptoTrader.png';
-import savingsapp from './images/cryptoTrader.png';
-import cyberfunk from './images/cyberfunk_gameplay.png';
+//import savingsapp from './images/cryptoTrader.png';
+//import cyberfunk from './images/cyberfunk_gameplay.png';
 
 function App() {
   /* NAVBAR states */
@@ -160,28 +160,6 @@ function App() {
           <div className = "projects">
             <h1 data-aos= "fade-in" data-aos-duration="2000"> PROJECTS </h1>
               <div className = "container">
-              <div className = "row">
-                  <div className = "col-lg">
-                    <Project name = "SavingsApp"
-                    date = "Dec. 2021 - Present"
-                    desc = "A web application that gamifies the process of keeping track of a user's savings, allowing them to enter transactions and view both their statistics for the week and any achievements that they've earned. Built using React, HTMl, CSS, JavaScript. Utilized the Date-fns and Charts.js libraries."
-                    img = {savingsapp}
-                    imgName = "cryptotrader"
-                    logos = {[urlLogo, githubLogo, devpostLogo]}
-                    links = {["https://zahidmirza95.github.io/SavingsApp/", "https://github.com/ZahidMirza95/shellhacksnew2021", "https://devpost.com/software/cryptotrader-4t8z5a"]}
-                    />
-                  </div>
-                  <div className = "col-lg">
-                    <Project name = "CyberFunk"
-                    date = "Nov. 2021 - Dec. 2021"
-                    desc = "A first-person shooter game created in a team of 2 within a month for GitHub Gameoff 2021. Created using Unreal Engine 4 and Blueprints (C++ Visual Scripting). Models and animations were made using Blender."
-                    img = {cyberfunk}
-                    imgName = "hobbyhub"
-                    logos = {[githubLogo, itchioLogo]}
-                    links = {["https://github.com/ZahidMirza95/BugGame", "https://zamzam95.itch.io/cyberfunk"]}
-                    />
-                  </div>
-                </div>
                 <div className = "row">
                   <div className = "col-lg">
                     <Project name = "CryptoTrader"
