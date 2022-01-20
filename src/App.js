@@ -17,6 +17,7 @@ import csharp from './images/csharp_logo.png';
 import java from './images/java_logo.png';
 import javascript from './images/javascript_logo.png';
 import python from './images/python_logo.png';
+import visualBasic from './images/visual_basic.png'
 
 /* Project Images  */
 import portfolio from './images/personal_website.png';
@@ -160,6 +161,10 @@ function App() {
               <div className = "col">
                 <img className = "language" src = {python} alt = "python"/>
                 <h3> Python </h3>
+              </div>
+              <div className = "col">
+                <img className = "language" src = {visualBasic} alt = "visualBasic"/>
+                <h3> Visual Basic </h3>
               </div>
             </div>
           </div>
