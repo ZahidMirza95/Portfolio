@@ -26,7 +26,10 @@ import gogogirl from './images/Gogogirl_Game_Real.png';
 import stockify from './images/Stockify_Main.png';
 import covidai from './images/COVIDAI_App.png';
 import hobbyhub from './images/hobbyhubquest.jpg';
-import hobbyhublogo from './images/hobbyhub.png';
+import cryptotrader from './images/cryptoTrader.png';
+//import savingsapp from './images/cryptoTrader.png';
+//import cyberfunk from './images/cyberfunk_gameplay.png';
+//Test comment
 
 function App() {
   /* NAVBAR states */
