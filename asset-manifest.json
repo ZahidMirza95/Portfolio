@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8f68437d.css",
-    "main.js": "/static/js/main.64dd8d9d.js",
+    "main.js": "/static/js/main.e85edbff.js",
     "static/js/377.ddffdb1c.chunk.js": "/static/js/377.ddffdb1c.chunk.js",
     "static/media/personal_website.png": "/static/media/personal_website.d9b99765a76413dbee93.png",
     "static/media/Stockify_Main.png": "/static/media/Stockify_Main.5c0e40f98d36573c6fda.png",
@@ -14,18 +14,18 @@
     "static/media/nasm_logo.png": "/static/media/nasm_logo.95faa3d5dce7fd8c8be1.png",
     "static/media/github_logo_new.png": "/static/media/github_logo_new.77c52a9ca21698099c54.png",
     "static/media/hobbyhubquest.jpg": "/static/media/hobbyhubquest.ac25eb28e38e431d6176.jpg",
-    "static/media/COVIDAI_App.png": "/static/media/COVIDAI_App.0c9b2ebf325377402898.png",
     "static/media/resume_bg_new.png": "/static/media/resume_bg_new.b829d104880e63889f82.png",
     "static/media/linked_in_logo.png": "/static/media/linked_in_logo.65c3a77d95a061391f39.png",
+    "static/media/url_image.png": "/static/media/url_image.eca5ba6fc0a12e5e53cb.png",
     "static/media/csharp_logo.png": "/static/media/csharp_logo.f80d0b424b81084407e3.png",
     "static/media/javascript_logo.png": "/static/media/javascript_logo.bfea14733610c82bb96c.png",
     "index.html": "/index.html",
     "main.8f68437d.css.map": "/static/css/main.8f68437d.css.map",
-    "main.64dd8d9d.js.map": "/static/js/main.64dd8d9d.js.map",
+    "main.e85edbff.js.map": "/static/js/main.e85edbff.js.map",
     "377.ddffdb1c.chunk.js.map": "/static/js/377.ddffdb1c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8f68437d.css",
-    "static/js/main.64dd8d9d.js"
+    "static/js/main.e85edbff.js"
   ]
 }
