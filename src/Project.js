@@ -16,7 +16,7 @@ function Project(props) {
         }
     );
     return(
-        <div className = "container-sm" data-aos = "fade-down-right" data-aos-duration="1000" data-aos-once="true" >
+        <div className = "container-sm" data-aos = "fade-down-right" data-aos-duration="1000" data-aos-once="true">
             <h1 className = "project-name"> {props.name} </h1>
             <h2 className = "project-date"> {props.date} </h2>
             <img className = {props.imgName} src = {props.img} alt = {props.name}/>
