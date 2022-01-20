@@ -179,7 +179,7 @@ function App() {
                     date = "Dec. 2021 - Present"
                     desc = "A web application that gamifies the process of keeping track of a user's savings, allowing them to enter transactions and view both their statistics for the week and any achievements that they've earned. Built using React, HTMl, CSS, JavaScript. Utilized the Date-fns and Charts.js libraries."
                     img = {savingsapp}
-                    imgName = "cryptotrader"
+                    imgName = "hobbyhub"
                     logos = {[urlLogo, githubLogo, devpostLogo]}
                     links = {["https://zahidmirza95.github.io/SavingsApp/", "https://github.com/ZahidMirza95/shellhacksnew2021", "https://devpost.com/software/cryptotrader-4t8z5a"]}
                     />
